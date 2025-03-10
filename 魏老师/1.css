@@ -1,0 +1,79 @@
+@charset "utf-8";
+html {
+   background-image: url(background-img.jpg); 
+   background-size: cover; 
+   background-repeat: no-repeat;
+   background-position: center; 
+   background-attachment: fixed; 
+   background-position: center; 
+}
+
+* {
+   margin: 0; /* Remove default margin */
+   padding: 0; /* Remove default padding */
+   box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+/* Body Styles */
+
+body {
+   margin: 0 auto; /* Center the body content */
+   width: 100%; /* Set the body width to 100% */
+}
+
+#img-one {
+   display: block; /* Display the image as a block element */
+   width: 100%; /* Set the image width to 100% */
+   height: 200px; /* Set the image height to 200px */
+}
+
+/* Body Header Styles */
+
+body > header {
+   margin: 0; /* Remove default margin */
+   width: 100%; /* Set the header width to 100% */
+   overflow: hidden; /* Hide any overflow content */
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 33.33%; /* Set each navigation list item to take up 33.33% of the width */
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+    display: block; /* Display each navigation list item as a block */
+    float: left; /* Float the list items to the left */
+}
+ 
+nav.horizontalNavigation a {
+    display: block; /* Display the navigation links as block elements */
+    text-align: center; /* Center the text within the navigation links */
+}
+
+/* Flip-card front heading styles */
+.flip-card-front h2 {
+   font-size: 2.2em; /* Set the font size of the flip-card front heading */
+}
+
+/* Flip-card back heading styles */
+.flip-card-back h2 {
+   font-size: 1.8em; /* Set the font size of the flip-card back heading */
+   color: #91e480; /* Set the color of the flip-card back heading */
+}
+
+/* Flip-card back paragraph styles */
+.flip-card-back p {
+   font-size: 1.2em; /* Set the font size of the flip-card back paragraph */
+}
+
+/* Footer styling */
+footer {
+   background-color: #55bd40; /* Set the footer background color */
+   color: white; /* Set the footer text color */
+   text-align: center; /* Center the footer text */
+   padding: 10px 0; /* Add padding to the top and bottom of the footer */
+   position: relative; /* Position the footer relative to its normal position */
+   width: 100%; /* Set the footer width to 100% */
+   bottom: 0; /* Position the footer at the bottom */
+}

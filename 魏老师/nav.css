@@ -1,0 +1,18 @@
+@charset "utf-8";
+nav.horizontalNavigation a {
+    background-color: rgb(59, 169, 12); 
+    font-family: Champagne, cursive; 
+    font-size: 1.3em; 
+    line-height: 1.5em; 
+    text-align: center;
+}
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+    color: rgb(239, 220, 156); 
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+    background-color: rgb(239, 238, 233); 
+}
